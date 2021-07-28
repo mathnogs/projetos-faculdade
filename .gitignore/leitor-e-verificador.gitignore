@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(void) {
+  int n = 0;
+  int qtd = 0; 
+
+  for (int i = 10; i; i--){
+      scanf("%d", &n);
+    if (n >= 6){
+      qtd++;
+    }
+  }
+    printf ("Quantidade de numeros maiores ou iguais a 6: %d \n", qtd);
+  return 0;
+}
